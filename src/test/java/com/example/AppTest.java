@@ -9,8 +9,9 @@ public class AppTest {
     public void testReverseString() {
         App app = new App();
 
-        String actual = app.reverseString("hello");
+        String input = "hello";
+        String expected = "olleh";
 
-        assertEquals("hello", actual);
+        assertEquals(expected, app.reverseString(input));
     }
 }
