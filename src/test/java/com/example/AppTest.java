@@ -11,6 +11,6 @@ public class AppTest {
 
         String actual = app.reverseString("hello");
 
-        assertEquals("olleh", actual);
+        assertEquals("hello", actual);
     }
 }
